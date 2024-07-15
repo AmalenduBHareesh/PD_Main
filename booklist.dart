@@ -48,10 +48,10 @@ class Booklist extends StatelessWidget {
                               fontSize: 18,
                               fontWeight: FontWeight.w700),
                         ),
-                        const SizedBox(width: 225),
+                        const SizedBox(width: 220),
                         InkWell(
                             onTap: () {
-                              Navigator.push(
+                              Navigator.pushReplacement(
                                   context,
                                   MaterialPageRoute(
                                       builder: (context) => const Bookgrid()));

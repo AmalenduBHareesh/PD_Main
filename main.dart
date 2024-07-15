@@ -8,6 +8,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: Home());
+    return MaterialApp(
+        theme: ThemeData(
+          textTheme: Theme.of(context).textTheme.apply(
+                fontFamily: 'Nunito',
+              ),
+        ),
+        home: Home());
   }
 }

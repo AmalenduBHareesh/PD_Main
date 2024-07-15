@@ -204,11 +204,153 @@ class Home extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                     ),
                     height: 25,
+                    width: 240,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Database Management Systems',
+                            style: TextStyle(
+                                color: Color(0xff6F7BEC),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700)),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Color(0xff414ECA), width: 1),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    height: 25,
                     width: 258,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text('Time & Space Complexity Analysis',
+                            style: TextStyle(
+                                color: Color(0xff6F7BEC),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700)),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Color(0xff414ECA), width: 1),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    height: 25,
+                    width: 298,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Software Developement LIfe Cycle (SDLC)',
+                            style: TextStyle(
+                                color: Color(0xff6F7BEC),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700)),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Color(0xff414ECA), width: 1),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    height: 25,
+                    width: 258,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Time & Space Complexity Analysis',
+                            style: TextStyle(
+                                color: Color(0xff6F7BEC),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700)),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Color(0xff6F7BEC), width: 1),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    height: 25,
+                    width: 165,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Communication Skills',
+                            style: TextStyle(
+                                color: Color(0xff6F7BEC),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700)),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Color(0xff6F7BEC), width: 1),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    height: 25,
+                    width: 121,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Teamwork',
+                            style: TextStyle(
+                                color: Color(0xff6F7BEC),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700)),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Color(0xff414ECA), width: 1),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    height: 25,
+                    width: 240,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Database Management Systems',
                             style: TextStyle(
                                 color: Color(0xff6F7BEC),
                                 fontSize: 14,
@@ -276,11 +418,35 @@ class Home extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                     ),
                     height: 25,
-                    width: 258,
+                    width: 238,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text('Time & Space Complexity Analysis',
+                        Text('Technical Interview Preparation',
+                            style: TextStyle(
+                                color: Color(0xff6F7BEC),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700)),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Color(0xff414ECA), width: 1),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    height: 25,
+                    width: 240,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Database Management Systems',
                             style: TextStyle(
                                 color: Color(0xff6F7BEC),
                                 fontSize: 14,
@@ -320,15 +486,61 @@ class Home extends StatelessWidget {
                   Container(
                     decoration: BoxDecoration(
                       shape: BoxShape.rectangle,
+                      border: Border.all(color: Color(0xff6F7BEC), width: 1),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    height: 25,
+                    width: 165,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Communication Skills',
+                            style: TextStyle(
+                                color: Color(0xff6F7BEC),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700)),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Color(0xff6F7BEC), width: 1),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    height: 25,
+                    width: 121,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Teamwork',
+                            style: TextStyle(
+                                color: Color(0xff6F7BEC),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700)),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
                       border: Border.all(color: Color(0xff414ECA), width: 1),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     height: 25,
-                    width: 258,
+                    width: 240,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text('Time & Space Complexity Analysis',
+                        Text('Database Management Systems',
                             style: TextStyle(
                                 color: Color(0xff6F7BEC),
                                 fontSize: 14,
@@ -368,15 +580,37 @@ class Home extends StatelessWidget {
                   Container(
                     decoration: BoxDecoration(
                       shape: BoxShape.rectangle,
-                      border: Border.all(color: Color(0xff414ECA), width: 1),
+                      border: Border.all(color: Color(0xff6F7BEC), width: 1),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     height: 25,
-                    width: 258,
+                    width: 180,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text('Time & Space Complexity Analysis',
+                        Text('Graph Algorithms',
+                            style: TextStyle(
+                                color: Color(0xff6F7BEC),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700)),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Color(0xff6F7BEC), width: 1),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    height: 25,
+                    width: 180,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Greedy Algorithm',
                             style: TextStyle(
                                 color: Color(0xff6F7BEC),
                                 fontSize: 14,
@@ -396,11 +630,11 @@ class Home extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                     ),
                     height: 25,
-                    width: 258,
+                    width: 240,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text('Time & Space Complexity Analysis',
+                        Text('Database Management Systems',
                             style: TextStyle(
                                 color: Color(0xff6F7BEC),
                                 fontSize: 14,
@@ -420,131 +654,11 @@ class Home extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                     ),
                     height: 25,
-                    width: 258,
+                    width: 200,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text('Time & Space Complexity Analysis',
-                            style: TextStyle(
-                                color: Color(0xff6F7BEC),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w700)),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 10),
-              Row(
-                children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      shape: BoxShape.rectangle,
-                      border: Border.all(color: Color(0xff414ECA), width: 1),
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    height: 25,
-                    width: 258,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text('Time & Space Complexity Analysis',
-                            style: TextStyle(
-                                color: Color(0xff6F7BEC),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w700)),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 10),
-              Row(
-                children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      shape: BoxShape.rectangle,
-                      border: Border.all(color: Color(0xff414ECA), width: 1),
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    height: 25,
-                    width: 258,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text('Time & Space Complexity Analysis',
-                            style: TextStyle(
-                                color: Color(0xff6F7BEC),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w700)),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 10),
-              Row(
-                children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      shape: BoxShape.rectangle,
-                      border: Border.all(color: Color(0xff414ECA), width: 1),
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    height: 25,
-                    width: 258,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text('Time & Space Complexity Analysis',
-                            style: TextStyle(
-                                color: Color(0xff6F7BEC),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w700)),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 10),
-              Row(
-                children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      shape: BoxShape.rectangle,
-                      border: Border.all(color: Color(0xff414ECA), width: 1),
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    height: 25,
-                    width: 258,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text('Time & Space Complexity Analysis',
-                            style: TextStyle(
-                                color: Color(0xff6F7BEC),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w700)),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 10),
-              Row(
-                children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      shape: BoxShape.rectangle,
-                      border: Border.all(color: Color(0xff414ECA), width: 1),
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    height: 25,
-                    width: 258,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text('Time & Space Complexity Analysis',
+                        Text('Dynamic Programming',
                             style: TextStyle(
                                 color: Color(0xff6F7BEC),
                                 fontSize: 14,

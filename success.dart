@@ -99,7 +99,7 @@ class Success extends StatelessWidget {
                   ),
                 ]),
                 const SizedBox(
-                  height: 160,
+                  height: 140,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,

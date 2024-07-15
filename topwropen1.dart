@@ -55,8 +55,7 @@ class TopOpen1 extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 5, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -78,7 +77,7 @@ class TopOpen1 extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 58),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -315,7 +314,7 @@ class TopOpen1 extends StatelessWidget {
                                   ),
                                   Padding(
                                     padding:
-                                        const EdgeInsets.only(top: 10, left: 8),
+                                        const EdgeInsets.only(top: 8, left: 8),
                                     child: Row(
                                       children: [
                                         Text('5 Days Ago',
@@ -324,7 +323,7 @@ class TopOpen1 extends StatelessWidget {
                                                 fontSize: 10,
                                                 fontWeight: FontWeight.w700)),
                                         const SizedBox(
-                                          width: 125,
+                                          width: 118,
                                         ),
                                         Icon(
                                           Icons.bookmark_outline_outlined,
@@ -395,7 +394,7 @@ class TopOpen1 extends StatelessWidget {
                                   ),
                                   Padding(
                                     padding:
-                                        const EdgeInsets.only(top: 10, left: 8),
+                                        const EdgeInsets.only(top: 8, left: 8),
                                     child: Row(
                                       children: [
                                         Text('5 Days Ago',
@@ -404,7 +403,7 @@ class TopOpen1 extends StatelessWidget {
                                                 fontSize: 10,
                                                 fontWeight: FontWeight.w700)),
                                         const SizedBox(
-                                          width: 125,
+                                          width: 118,
                                         ),
                                         Icon(
                                           Icons.bookmark_outline_outlined,
@@ -475,7 +474,7 @@ class TopOpen1 extends StatelessWidget {
                                   ),
                                   Padding(
                                     padding:
-                                        const EdgeInsets.only(top: 10, left: 8),
+                                        const EdgeInsets.only(top: 8, left: 8),
                                     child: Row(
                                       children: [
                                         Text('5 Days Ago',
@@ -484,7 +483,7 @@ class TopOpen1 extends StatelessWidget {
                                                 fontSize: 10,
                                                 fontWeight: FontWeight.w700)),
                                         const SizedBox(
-                                          width: 125,
+                                          width: 118,
                                         ),
                                         Icon(
                                           Icons.bookmark_outline_outlined,
@@ -555,7 +554,7 @@ class TopOpen1 extends StatelessWidget {
                                   ),
                                   Padding(
                                     padding:
-                                        const EdgeInsets.only(top: 10, left: 8),
+                                        const EdgeInsets.only(top: 8, left: 8),
                                     child: Row(
                                       children: [
                                         Text('5 Days Ago',
@@ -564,7 +563,7 @@ class TopOpen1 extends StatelessWidget {
                                                 fontSize: 10,
                                                 fontWeight: FontWeight.w700)),
                                         const SizedBox(
-                                          width: 125,
+                                          width: 118,
                                         ),
                                         Icon(
                                           Icons.bookmark_outline_outlined,
@@ -731,7 +730,7 @@ class TopOpen1 extends StatelessWidget {
                                   ),
                                   Padding(
                                     padding:
-                                        const EdgeInsets.only(top: 10, left: 8),
+                                        const EdgeInsets.only(top: 8, left: 8),
                                     child: Row(
                                       children: [
                                         Text('5 Days Ago',
@@ -740,7 +739,7 @@ class TopOpen1 extends StatelessWidget {
                                                 fontSize: 10,
                                                 fontWeight: FontWeight.w700)),
                                         const SizedBox(
-                                          width: 125,
+                                          width: 118,
                                         ),
                                         Icon(
                                           Icons.bookmark_outline_outlined,
@@ -811,7 +810,7 @@ class TopOpen1 extends StatelessWidget {
                                   ),
                                   Padding(
                                     padding:
-                                        const EdgeInsets.only(top: 10, left: 8),
+                                        const EdgeInsets.only(top: 8, left: 8),
                                     child: Row(
                                       children: [
                                         Text('5 Days Ago',
@@ -820,7 +819,7 @@ class TopOpen1 extends StatelessWidget {
                                                 fontSize: 10,
                                                 fontWeight: FontWeight.w700)),
                                         const SizedBox(
-                                          width: 125,
+                                          width: 118,
                                         ),
                                         Icon(
                                           Icons.bookmark_outline_outlined,

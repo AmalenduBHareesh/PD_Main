@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pd_main/articledet.dart';
 
 class Comments extends StatelessWidget {
   const Comments({super.key});
@@ -13,8 +14,8 @@ class Comments extends StatelessWidget {
         elevation: 0,
         leading: InkWell(
             onTap: () {
-              // Navigator.push(context,
-              //     MaterialPageRoute(builder: (context) => const Feeds()));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const ArticDet()));
             },
             child: Icon(Icons.arrow_back, size: 30, color: Color(0xff260446))),
         actions: [
@@ -138,6 +139,7 @@ class Comments extends StatelessWidget {
                   )
                 ],
               ),
+              const SizedBox(height: 10),
               Row(
                 children: [
                   Text(
@@ -202,6 +204,7 @@ class Comments extends StatelessWidget {
                   )
                 ],
               ),
+              const SizedBox(height: 10),
               Row(
                 children: [
                   Text(
@@ -266,6 +269,7 @@ class Comments extends StatelessWidget {
                   )
                 ],
               ),
+              const SizedBox(height: 10),
               Row(
                 children: [
                   Text(
@@ -330,6 +334,7 @@ class Comments extends StatelessWidget {
                   )
                 ],
               ),
+              const SizedBox(height: 10),
               Row(
                 children: [
                   Text(
@@ -394,6 +399,7 @@ class Comments extends StatelessWidget {
                   )
                 ],
               ),
+              const SizedBox(height: 10),
               Row(
                 children: [
                   Text(

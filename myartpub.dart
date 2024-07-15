@@ -26,6 +26,7 @@ class MyArtpb extends StatelessWidget {
               child: Text(
                 'My Articles',
                 style: TextStyle(
+                    fontFamily: 'Nunito',
                     color: Color(0xff260446),
                     fontSize: 20,
                     fontWeight: FontWeight.w700),
@@ -66,6 +67,7 @@ class MyArtpb extends StatelessWidget {
                             child: Container(
                               child: Text("Drafts(15)",
                                   style: TextStyle(
+                                    fontFamily: 'Nunito',
                                     fontSize: 17,
                                     fontWeight: FontWeight.w700,
                                     color: Color(0xff8B8B8B),
@@ -81,6 +83,7 @@ class MyArtpb extends StatelessWidget {
                           child: Container(
                             child: Text("Published(27)",
                                 style: TextStyle(
+                                  fontFamily: 'Nunito',
                                   fontSize: 17,
                                   fontWeight: FontWeight.w700,
                                   color: Color(0xff414ECA),
@@ -153,6 +156,163 @@ class MyArtpb extends StatelessWidget {
                                     child: Text(
                                         "10 tips for Boosting your \n Productivity...",
                                         style: TextStyle(
+                                            fontFamily: 'Nunito',
+                                            fontSize: 16,
+                                            fontWeight: FontWeight.w700,
+                                            color: Color(0xff414ECA))),
+                                  ),
+                                  Row(
+                                    children: [
+                                      Text('Today',
+                                          style: TextStyle(
+                                              fontFamily: 'Nunito',
+                                              color: Color(0xff8B8B8B),
+                                              fontSize: 14,
+                                              fontWeight: FontWeight.w700)),
+                                      const SizedBox(
+                                        width: 135,
+                                      ),
+                                      Icon(
+                                        Icons.app_registration,
+                                        color: Color(0xff8B8B8B),
+                                        size: 20,
+                                      ),
+                                      const SizedBox(
+                                        width: 20,
+                                      ),
+                                      Icon(
+                                        Icons.more_vert,
+                                        size: 20,
+                                        color: Color(0xff8B8B8B),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                            shape: BoxShape.rectangle,
+                            borderRadius: BorderRadius.circular(10)),
+                        height: 125,
+                        width: 375,
+                        child: Row(
+                          children: [
+                            Container(
+                              width: 115,
+                              height: 115,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.rectangle,
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(10),
+                                child: Image.asset(
+                                  'assets/images/three.png',
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(width: 15),
+                            Padding(
+                              padding: const EdgeInsets.only(top: 20),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.only(
+                                        right: 61, top: 40),
+                                    child: Text(
+                                        "10 tips for Boosting your \n Productivity...",
+                                        style: TextStyle(
+                                            fontSize: 16,
+                                            fontFamily: 'Nunito',
+                                            fontWeight: FontWeight.w700,
+                                            color: Color(0xff414ECA))),
+                                  ),
+                                  Row(
+                                    children: [
+                                      Text('Today',
+                                          style: TextStyle(
+                                              fontFamily: 'Nunito',
+                                              color: Color(0xff8B8B8B),
+                                              fontSize: 14,
+                                              fontWeight: FontWeight.w700)),
+                                      const SizedBox(
+                                        width: 135,
+                                      ),
+                                      Icon(
+                                        Icons.app_registration,
+                                        color: Color(0xff8B8B8B),
+                                        size: 20,
+                                      ),
+                                      const SizedBox(
+                                        width: 20,
+                                      ),
+                                      Icon(
+                                        Icons.more_vert,
+                                        size: 20,
+                                        color: Color(0xff8B8B8B),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                            shape: BoxShape.rectangle,
+                            borderRadius: BorderRadius.circular(10)),
+                        height: 125,
+                        width: 375,
+                        child: Row(
+                          children: [
+                            Container(
+                              width: 115,
+                              height: 115,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.rectangle,
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(10),
+                                child: Image.asset(
+                                  'assets/images/three.png',
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(width: 15),
+                            Padding(
+                              padding: const EdgeInsets.only(top: 20),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.only(
+                                        right: 61, top: 40),
+                                    child: Text(
+                                        "10 tips for Boosting your \n Productivity...",
+                                        style: TextStyle(
+                                            fontFamily: 'Nunito',
                                             fontSize: 16,
                                             fontWeight: FontWeight.w700,
                                             color: Color(0xff414ECA))),
@@ -229,6 +389,7 @@ class MyArtpb extends StatelessWidget {
                                     child: Text(
                                         "10 tips for Boosting your \n Productivity...",
                                         style: TextStyle(
+                                            fontFamily: 'Nunito',
                                             fontSize: 16,
                                             fontWeight: FontWeight.w700,
                                             color: Color(0xff414ECA))),
@@ -237,6 +398,85 @@ class MyArtpb extends StatelessWidget {
                                     children: [
                                       Text('Today',
                                           style: TextStyle(
+                                              color: Color(0xff8B8B8B),
+                                              fontSize: 14,
+                                              fontFamily: 'Nunito',
+                                              fontWeight: FontWeight.w700)),
+                                      const SizedBox(
+                                        width: 135,
+                                      ),
+                                      Icon(
+                                        Icons.app_registration,
+                                        color: Color(0xff8B8B8B),
+                                        size: 20,
+                                      ),
+                                      const SizedBox(
+                                        width: 20,
+                                      ),
+                                      Icon(
+                                        Icons.more_vert,
+                                        size: 20,
+                                        color: Color(0xff8B8B8B),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                            shape: BoxShape.rectangle,
+                            borderRadius: BorderRadius.circular(10)),
+                        height: 125,
+                        width: 375,
+                        child: Row(
+                          children: [
+                            Container(
+                              width: 115,
+                              height: 115,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.rectangle,
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(10),
+                                child: Image.asset(
+                                  'assets/images/three.png',
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(width: 15),
+                            Padding(
+                              padding: const EdgeInsets.only(top: 20),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.only(
+                                        right: 61, top: 40),
+                                    child: Text(
+                                        "10 tips for Boosting your \n Productivity...",
+                                        style: TextStyle(
+                                            fontSize: 16,
+                                            fontFamily: 'Nunito',
+                                            fontWeight: FontWeight.w700,
+                                            color: Color(0xff414ECA))),
+                                  ),
+                                  Row(
+                                    children: [
+                                      Text('Today',
+                                          style: TextStyle(
+                                              fontFamily: 'Nunito',
                                               color: Color(0xff8B8B8B),
                                               fontSize: 14,
                                               fontWeight: FontWeight.w700)),
@@ -305,6 +545,7 @@ class MyArtpb extends StatelessWidget {
                                     child: Text(
                                         "10 tips for Boosting your \n Productivity...",
                                         style: TextStyle(
+                                            fontFamily: 'Nunito',
                                             fontSize: 16,
                                             fontWeight: FontWeight.w700,
                                             color: Color(0xff414ECA))),
@@ -313,234 +554,7 @@ class MyArtpb extends StatelessWidget {
                                     children: [
                                       Text('Today',
                                           style: TextStyle(
-                                              color: Color(0xff8B8B8B),
-                                              fontSize: 14,
-                                              fontWeight: FontWeight.w700)),
-                                      const SizedBox(
-                                        width: 135,
-                                      ),
-                                      Icon(
-                                        Icons.app_registration,
-                                        color: Color(0xff8B8B8B),
-                                        size: 20,
-                                      ),
-                                      const SizedBox(
-                                        width: 20,
-                                      ),
-                                      Icon(
-                                        Icons.more_vert,
-                                        size: 20,
-                                        color: Color(0xff8B8B8B),
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            shape: BoxShape.rectangle,
-                            borderRadius: BorderRadius.circular(10)),
-                        height: 125,
-                        width: 375,
-                        child: Row(
-                          children: [
-                            Container(
-                              width: 115,
-                              height: 115,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.rectangle,
-                                borderRadius: BorderRadius.circular(10),
-                              ),
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(10),
-                                child: Image.asset(
-                                  'assets/images/three.png',
-                                  fit: BoxFit.cover,
-                                ),
-                              ),
-                            ),
-                            const SizedBox(width: 15),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 20),
-                              child: Column(
-                                children: [
-                                  Padding(
-                                    padding: const EdgeInsets.only(
-                                        right: 61, top: 40),
-                                    child: Text(
-                                        "10 tips for Boosting your \n Productivity...",
-                                        style: TextStyle(
-                                            fontSize: 16,
-                                            fontWeight: FontWeight.w700,
-                                            color: Color(0xff414ECA))),
-                                  ),
-                                  Row(
-                                    children: [
-                                      Text('Today',
-                                          style: TextStyle(
-                                              color: Color(0xff8B8B8B),
-                                              fontSize: 14,
-                                              fontWeight: FontWeight.w700)),
-                                      const SizedBox(
-                                        width: 135,
-                                      ),
-                                      Icon(
-                                        Icons.app_registration,
-                                        color: Color(0xff8B8B8B),
-                                        size: 20,
-                                      ),
-                                      const SizedBox(
-                                        width: 20,
-                                      ),
-                                      Icon(
-                                        Icons.more_vert,
-                                        size: 20,
-                                        color: Color(0xff8B8B8B),
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            shape: BoxShape.rectangle,
-                            borderRadius: BorderRadius.circular(10)),
-                        height: 125,
-                        width: 375,
-                        child: Row(
-                          children: [
-                            Container(
-                              width: 115,
-                              height: 115,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.rectangle,
-                                borderRadius: BorderRadius.circular(10),
-                              ),
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(10),
-                                child: Image.asset(
-                                  'assets/images/three.png',
-                                  fit: BoxFit.cover,
-                                ),
-                              ),
-                            ),
-                            const SizedBox(width: 15),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 20),
-                              child: Column(
-                                children: [
-                                  Padding(
-                                    padding: const EdgeInsets.only(
-                                        right: 61, top: 40),
-                                    child: Text(
-                                        "10 tips for Boosting your \n Productivity...",
-                                        style: TextStyle(
-                                            fontSize: 16,
-                                            fontWeight: FontWeight.w700,
-                                            color: Color(0xff414ECA))),
-                                  ),
-                                  Row(
-                                    children: [
-                                      Text('Today',
-                                          style: TextStyle(
-                                              color: Color(0xff8B8B8B),
-                                              fontSize: 14,
-                                              fontWeight: FontWeight.w700)),
-                                      const SizedBox(
-                                        width: 135,
-                                      ),
-                                      Icon(
-                                        Icons.app_registration,
-                                        color: Color(0xff8B8B8B),
-                                        size: 20,
-                                      ),
-                                      const SizedBox(
-                                        width: 20,
-                                      ),
-                                      Icon(
-                                        Icons.more_vert,
-                                        size: 20,
-                                        color: Color(0xff8B8B8B),
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            shape: BoxShape.rectangle,
-                            borderRadius: BorderRadius.circular(10)),
-                        height: 125,
-                        width: 375,
-                        child: Row(
-                          children: [
-                            Container(
-                              width: 115,
-                              height: 115,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.rectangle,
-                                borderRadius: BorderRadius.circular(10),
-                              ),
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(10),
-                                child: Image.asset(
-                                  'assets/images/three.png',
-                                  fit: BoxFit.cover,
-                                ),
-                              ),
-                            ),
-                            const SizedBox(width: 15),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 20),
-                              child: Column(
-                                children: [
-                                  Padding(
-                                    padding: const EdgeInsets.only(
-                                        right: 61, top: 40),
-                                    child: Text(
-                                        "10 tips for Boosting your \n Productivity...",
-                                        style: TextStyle(
-                                            fontSize: 16,
-                                            fontWeight: FontWeight.w700,
-                                            color: Color(0xff414ECA))),
-                                  ),
-                                  Row(
-                                    children: [
-                                      Text('Today',
-                                          style: TextStyle(
+                                              fontFamily: 'Nunito',
                                               color: Color(0xff8B8B8B),
                                               fontSize: 14,
                                               fontWeight: FontWeight.w700)),

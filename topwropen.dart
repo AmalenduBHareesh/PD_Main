@@ -53,7 +53,7 @@ class TopOpen extends StatelessWidget {
                             'assets/images/ello.png',
                           ),
                           Padding(
-                            padding: const EdgeInsets.only(top: 10, left: 5),
+                            padding: const EdgeInsets.only(top: 8, left: 5),
                             child: Column(
                               children: [
                                 Padding(
@@ -75,7 +75,7 @@ class TopOpen extends StatelessWidget {
                               ],
                             ),
                           ),
-                          const SizedBox(width: 68),
+                          const SizedBox(width: 58),
                           Container(
                               decoration: BoxDecoration(
                                   shape: BoxShape.rectangle,

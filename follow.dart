@@ -97,8 +97,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -120,7 +119,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -162,8 +161,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -185,7 +183,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -227,8 +225,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -250,7 +247,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -292,8 +289,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -315,7 +311,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -357,8 +353,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -380,7 +375,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -422,8 +417,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -445,7 +439,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -487,8 +481,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -510,7 +503,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -552,8 +545,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -575,7 +567,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -617,8 +609,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -640,7 +631,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -682,8 +673,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -705,7 +695,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -747,8 +737,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -770,7 +759,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
@@ -812,8 +801,7 @@ class Follow extends StatelessWidget {
                                 'assets/images/ello.png',
                               ),
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 10, left: 5),
+                                padding: const EdgeInsets.only(top: 8, left: 5),
                                 child: Column(
                                   children: [
                                     Padding(
@@ -835,7 +823,7 @@ class Follow extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const SizedBox(width: 68),
+                              const SizedBox(width: 67),
                               Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,

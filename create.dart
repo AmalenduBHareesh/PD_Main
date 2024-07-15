@@ -470,25 +470,28 @@ class Create extends StatelessWidget {
                           );
                         });
                   },
-                  child: Container(
-                      decoration: BoxDecoration(
-                          shape: BoxShape.rectangle,
-                          color: Color(0xffC0C5F7),
-                          borderRadius: BorderRadius.circular(30)),
-                      height: 57,
-                      width: 350,
-                      child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text("Save as Draft",
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w600,
-                                color: Color(0xff414ECA),
-                              )),
-                        ],
-                      )),
+                  child: Padding(
+                    padding: const EdgeInsets.only(right: 10),
+                    child: Container(
+                        decoration: BoxDecoration(
+                            shape: BoxShape.rectangle,
+                            color: Color(0xffC0C5F7),
+                            borderRadius: BorderRadius.circular(30)),
+                        height: 57,
+                        width: 350,
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text("Save as Draft",
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.w600,
+                                  color: Color(0xff414ECA),
+                                )),
+                          ],
+                        )),
+                  ),
                 ),
                 const SizedBox(height: 15),
                 InkWell(
@@ -498,24 +501,27 @@ class Create extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => const Success()));
                   },
-                  child: Container(
-                      decoration: BoxDecoration(
-                          shape: BoxShape.rectangle,
-                          color: Color(0xff414ECA),
-                          borderRadius: BorderRadius.circular(30)),
-                      height: 57,
-                      width: 350,
-                      child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text("Continue to Publish",
-                              style: TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w600,
-                                  color: Colors.white)),
-                        ],
-                      )),
+                  child: Padding(
+                    padding: const EdgeInsets.only(right: 10),
+                    child: Container(
+                        decoration: BoxDecoration(
+                            shape: BoxShape.rectangle,
+                            color: Color(0xff414ECA),
+                            borderRadius: BorderRadius.circular(30)),
+                        height: 57,
+                        width: 350,
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text("Continue to Publish",
+                                style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w600,
+                                    color: Colors.white)),
+                          ],
+                        )),
+                  ),
                 ),
               ],
             ),

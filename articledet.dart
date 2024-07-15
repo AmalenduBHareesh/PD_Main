@@ -129,7 +129,7 @@ class ArticDet extends StatelessWidget {
                                   )),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(top: 10, left: 5),
+                              padding: const EdgeInsets.only(top: 5, left: 5),
                               child: Column(
                                 children: [
                                   Padding(
@@ -151,7 +151,7 @@ class ArticDet extends StatelessWidget {
                                 ],
                               ),
                             ),
-                            const SizedBox(width: 68),
+                            const SizedBox(width: 58),
                             Container(
                                 decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,

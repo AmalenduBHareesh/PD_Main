@@ -26,6 +26,7 @@ class MyArt extends StatelessWidget {
               child: Text(
                 'My Articles',
                 style: TextStyle(
+                    fontFamily: 'Nunito',
                     color: Color(0xff260446),
                     fontSize: 20,
                     fontWeight: FontWeight.w700),
@@ -60,6 +61,7 @@ class MyArt extends StatelessWidget {
                             child: Text("Drafts(15)",
                                 style: TextStyle(
                                   fontSize: 17,
+                                  fontFamily: 'Nunito',
                                   fontWeight: FontWeight.w700,
                                   color: Color(0xff414ECA),
                                 )),
@@ -78,6 +80,7 @@ class MyArt extends StatelessWidget {
                           child: Container(
                             child: Text("Published(27)",
                                 style: TextStyle(
+                                  fontFamily: 'Nunito',
                                   fontSize: 17,
                                   fontWeight: FontWeight.w700,
                                   color: Color(0xff8B8B8B),
@@ -151,6 +154,7 @@ class MyArt extends StatelessWidget {
                                         "10 tips for Boosting your \n Productivity...",
                                         style: TextStyle(
                                             fontSize: 16,
+                                            fontFamily: 'Nunito',
                                             fontWeight: FontWeight.w700,
                                             color: Color(0xff414ECA))),
                                   ),
@@ -158,6 +162,7 @@ class MyArt extends StatelessWidget {
                                     children: [
                                       Text('Today',
                                           style: TextStyle(
+                                              fontFamily: 'Nunito',
                                               color: Color(0xff8B8B8B),
                                               fontSize: 14,
                                               fontWeight: FontWeight.w700)),
@@ -227,6 +232,7 @@ class MyArt extends StatelessWidget {
                                         "10 tips for Boosting your \n Productivity...",
                                         style: TextStyle(
                                             fontSize: 16,
+                                            fontFamily: 'Nunito',
                                             fontWeight: FontWeight.w700,
                                             color: Color(0xff414ECA))),
                                   ),
@@ -234,6 +240,7 @@ class MyArt extends StatelessWidget {
                                     children: [
                                       Text('Today',
                                           style: TextStyle(
+                                              fontFamily: 'Nunito',
                                               color: Color(0xff8B8B8B),
                                               fontSize: 14,
                                               fontWeight: FontWeight.w700)),
@@ -302,6 +309,7 @@ class MyArt extends StatelessWidget {
                                     child: Text(
                                         "10 tips for Boosting your \n Productivity...",
                                         style: TextStyle(
+                                            fontFamily: 'Nunito',
                                             fontSize: 16,
                                             fontWeight: FontWeight.w700,
                                             color: Color(0xff414ECA))),
@@ -310,6 +318,7 @@ class MyArt extends StatelessWidget {
                                     children: [
                                       Text('Today',
                                           style: TextStyle(
+                                              fontFamily: 'Nunito',
                                               color: Color(0xff8B8B8B),
                                               fontSize: 14,
                                               fontWeight: FontWeight.w700)),

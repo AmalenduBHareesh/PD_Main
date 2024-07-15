@@ -63,7 +63,7 @@ class Bookgrid extends StatelessWidget {
                   const SizedBox(width: 10),
                   InkWell(
                     onTap: () {
-                      Navigator.push(
+                      Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
                               builder: (context) => const Booklist()));

@@ -75,7 +75,7 @@ class Feeds extends StatelessWidget {
                 children: [
                   Container(
                     width: 368,
-                    height: 600,
+                    height: 630,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(30),
                         border: Border.all(
@@ -219,7 +219,7 @@ class Feeds extends StatelessWidget {
                                   fontWeight: FontWeight.w600,
                                   color: Color(0xff5A5F63))),
                         ),
-                        const SizedBox(height: 50),
+                        const SizedBox(height: 40),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
@@ -228,7 +228,7 @@ class Feeds extends StatelessWidget {
                                     color: Color(0xff8B8B8B),
                                     fontSize: 14,
                                     fontWeight: FontWeight.w600)),
-                            const SizedBox(width: 100),
+                            const SizedBox(width: 90),
                             Container(
                                 decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,

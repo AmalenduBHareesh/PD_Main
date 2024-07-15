@@ -41,9 +41,11 @@ class Discover extends StatelessWidget {
                   Text(
                     'Discover',
                     style: TextStyle(
-                        color: Color(0xff3A0070),
-                        fontSize: 22,
-                        fontWeight: FontWeight.w700),
+                      color: Color(0xff3A0070),
+                      fontSize: 22,
+                      fontWeight: FontWeight.w800,
+                      fontFamily: 'Nunito',
+                    ),
                   ),
                 ],
               ),
@@ -97,6 +99,7 @@ class Discover extends StatelessWidget {
                                   const SizedBox(width: 5),
                                   Text("Search feeds or writers here...",
                                       style: TextStyle(
+                                          fontFamily: 'Nunito',
                                           fontSize: 14,
                                           fontWeight: FontWeight.w600,
                                           color: Color(0xaf8B8B8B)))
@@ -114,9 +117,10 @@ class Discover extends StatelessWidget {
                         Text(
                           'Most Popular',
                           style: TextStyle(
+                              fontFamily: 'Nunito',
                               color: Color(0xff3A0070),
                               fontSize: 20,
-                              fontWeight: FontWeight.w700),
+                              fontWeight: FontWeight.w800),
                         ),
                         const SizedBox(width: 220),
                         InkWell(
@@ -197,6 +201,7 @@ class Discover extends StatelessWidget {
                                   Text(
                                       '10 tips for Boosting \n your Productivity...',
                                       style: TextStyle(
+                                          fontFamily: 'Nunito',
                                           fontSize: 16,
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff414ECA)))
@@ -211,12 +216,14 @@ class Discover extends StatelessWidget {
                               ),
                               Text('James Hok',
                                   style: TextStyle(
+                                      fontFamily: 'Nunito',
                                       fontSize: 12,
                                       fontWeight: FontWeight.w700,
                                       color: Color(0xff414ECA))),
-                              const SizedBox(width: 13),
+                              const SizedBox(width: 20),
                               Text('3 Days Ago',
                                   style: TextStyle(
+                                      fontFamily: 'Nunito',
                                       color: Color(0xff8B8B8B),
                                       fontSize: 10,
                                       fontWeight: FontWeight.w700)),
@@ -287,6 +294,7 @@ class Discover extends StatelessWidget {
                                 Text(
                                     '10 tips for Boosting \n your Productivity...',
                                     style: TextStyle(
+                                        fontFamily: 'Nunito',
                                         fontSize: 16,
                                         fontWeight: FontWeight.w700,
                                         color: Color(0xff414ECA)))
@@ -301,12 +309,14 @@ class Discover extends StatelessWidget {
                             ),
                             Text('James Hok',
                                 style: TextStyle(
+                                    fontFamily: 'Nunito',
                                     fontSize: 12,
                                     fontWeight: FontWeight.w700,
                                     color: Color(0xff414ECA))),
-                            const SizedBox(width: 13),
+                            const SizedBox(width: 20),
                             Text('3 Days Ago',
                                 style: TextStyle(
+                                    fontFamily: 'Nunito',
                                     color: Color(0xff8B8B8B),
                                     fontSize: 10,
                                     fontWeight: FontWeight.w700)),
@@ -320,15 +330,16 @@ class Discover extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 20),
                   Row(
                     children: [
                       Text(
                         'Explore by Topics',
                         style: TextStyle(
+                            fontFamily: 'Nunito',
                             color: Color(0xff3A0070),
                             fontSize: 20,
-                            fontWeight: FontWeight.w700),
+                            fontWeight: FontWeight.w800),
                       ),
                       const SizedBox(width: 200),
                       InkWell(
@@ -343,7 +354,7 @@ class Discover extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 15),
                   SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
                     child: Row(
@@ -393,12 +404,14 @@ class Discover extends StatelessWidget {
                                                 children: [
                                                   Text("AI",
                                                       style: TextStyle(
+                                                          fontFamily: 'Nunito',
                                                           fontSize: 18,
                                                           fontWeight:
                                                               FontWeight.w600,
                                                           color: Colors.white)),
                                                   Text("100+ Articles",
                                                       style: TextStyle(
+                                                          fontFamily: 'Nunito',
                                                           fontSize: 11,
                                                           fontWeight:
                                                               FontWeight.w600,
@@ -447,12 +460,14 @@ class Discover extends StatelessWidget {
                                                 children: [
                                                   Text("Data Science",
                                                       style: TextStyle(
+                                                          fontFamily: 'Nunito',
                                                           fontSize: 18,
                                                           fontWeight:
                                                               FontWeight.w600,
                                                           color: Colors.white)),
                                                   Text("100+ Articles",
                                                       style: TextStyle(
+                                                          fontFamily: 'Nunito',
                                                           fontSize: 11,
                                                           fontWeight:
                                                               FontWeight.w600,
@@ -501,12 +516,14 @@ class Discover extends StatelessWidget {
                                                 children: [
                                                   Text("Data Science",
                                                       style: TextStyle(
+                                                          fontFamily: 'Nunito',
                                                           fontSize: 18,
                                                           fontWeight:
                                                               FontWeight.w600,
                                                           color: Colors.white)),
                                                   Text("100+ Articles",
                                                       style: TextStyle(
+                                                          fontFamily: 'Nunito',
                                                           fontSize: 11,
                                                           fontWeight:
                                                               FontWeight.w600,
@@ -555,12 +572,14 @@ class Discover extends StatelessWidget {
                                                 children: [
                                                   Text("Data Science",
                                                       style: TextStyle(
+                                                          fontFamily: 'Nunito',
                                                           fontSize: 18,
                                                           fontWeight:
                                                               FontWeight.w600,
                                                           color: Colors.white)),
                                                   Text("100+ Articles",
                                                       style: TextStyle(
+                                                          fontFamily: 'Nunito',
                                                           fontSize: 11,
                                                           fontWeight:
                                                               FontWeight.w600,
@@ -609,12 +628,14 @@ class Discover extends StatelessWidget {
                                                 children: [
                                                   Text("Data Science",
                                                       style: TextStyle(
+                                                          fontFamily: 'Nunito',
                                                           fontSize: 18,
                                                           fontWeight:
                                                               FontWeight.w600,
                                                           color: Colors.white)),
                                                   Text("100+ Articles",
                                                       style: TextStyle(
+                                                          fontFamily: 'Nunito',
                                                           fontSize: 11,
                                                           fontWeight:
                                                               FontWeight.w600,
@@ -637,9 +658,10 @@ class Discover extends StatelessWidget {
                       Text(
                         'Top Writers',
                         style: TextStyle(
+                            fontFamily: 'Nunito',
                             color: Color(0xff3A0070),
                             fontSize: 20,
-                            fontWeight: FontWeight.w700),
+                            fontWeight: FontWeight.w800),
                       ),
                       const SizedBox(width: 250),
                       InkWell(
@@ -681,6 +703,7 @@ class Discover extends StatelessWidget {
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
+                                          fontFamily: 'Nunito',
                                           fontSize: 14,
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff3A0070)))
@@ -701,6 +724,7 @@ class Discover extends StatelessWidget {
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
+                                          fontFamily: 'Nunito',
                                           fontSize: 14,
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff3A0070)))
@@ -721,6 +745,7 @@ class Discover extends StatelessWidget {
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
+                                          fontFamily: 'Nunito',
                                           fontSize: 14,
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff3A0070)))
@@ -741,6 +766,7 @@ class Discover extends StatelessWidget {
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
+                                          fontFamily: 'Nunito',
                                           fontSize: 14,
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff3A0070)))
@@ -761,6 +787,7 @@ class Discover extends StatelessWidget {
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
+                                          fontFamily: 'Nunito',
                                           fontSize: 14,
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff3A0070)))
@@ -781,6 +808,28 @@ class Discover extends StatelessWidget {
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
+                                          fontFamily: 'Nunito',
+                                          fontSize: 14,
+                                          fontWeight: FontWeight.w700,
+                                          color: Color(0xff3A0070)))
+                                ],
+                              ),
+                              const SizedBox(width: 15),
+                              Column(
+                                children: [
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp1.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
+                                  const SizedBox(height: 10),
+                                  Text("Ronald",
+                                      style: TextStyle(
+                                          fontFamily: 'Nunito',
                                           fontSize: 14,
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff3A0070)))
@@ -802,26 +851,7 @@ class Discover extends StatelessWidget {
                                   Text("Ronald",
                                       style: TextStyle(
                                           fontSize: 14,
-                                          fontWeight: FontWeight.w700,
-                                          color: Color(0xff3A0070)))
-                                ],
-                              ),
-                              const SizedBox(width: 15),
-                              Column(
-                                children: [
-                                  ClipOval(
-                                    child: Container(
-                                        width: 60,
-                                        height: 60,
-                                        child: Image.asset(
-                                          'assets/images/dp1.png',
-                                          fit: BoxFit.fitHeight,
-                                        )),
-                                  ),
-                                  const SizedBox(height: 10),
-                                  Text("Ronald",
-                                      style: TextStyle(
-                                          fontSize: 14,
+                                          fontFamily: 'Nunito',
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff3A0070)))
                                 ],
@@ -842,6 +872,7 @@ class Discover extends StatelessWidget {
                                   Text("Ronald",
                                       style: TextStyle(
                                           fontSize: 14,
+                                          fontFamily: 'Nunito',
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff3A0070)))
                                 ],
@@ -861,6 +892,7 @@ class Discover extends StatelessWidget {
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
+                                          fontFamily: 'Nunito',
                                           fontSize: 14,
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff3A0070)))
@@ -881,6 +913,7 @@ class Discover extends StatelessWidget {
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
+                                          fontFamily: 'Nunito',
                                           fontSize: 14,
                                           fontWeight: FontWeight.w700,
                                           color: Color(0xff3A0070)))
@@ -890,12 +923,13 @@ class Discover extends StatelessWidget {
                           ),
                         )
                       ])),
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 15),
                   Row(
                     children: [
                       Text(
                         'Our Recommendations',
                         style: TextStyle(
+                            fontFamily: 'Nunito',
                             color: Color(0xff3A0070),
                             fontSize: 20,
                             fontWeight: FontWeight.w700),
@@ -971,6 +1005,7 @@ class Discover extends StatelessWidget {
                                 Text(
                                     '10 tips for Boosting \n your Productivity...',
                                     style: TextStyle(
+                                        fontFamily: 'Nunito',
                                         fontSize: 16,
                                         fontWeight: FontWeight.w700,
                                         color: Color(0xff414ECA)))
@@ -986,11 +1021,13 @@ class Discover extends StatelessWidget {
                             Text('James Hok',
                                 style: TextStyle(
                                     fontSize: 12,
+                                    fontFamily: 'Nunito',
                                     fontWeight: FontWeight.w700,
                                     color: Color(0xff414ECA))),
                             const SizedBox(width: 13),
                             Text('3 Days Ago',
                                 style: TextStyle(
+                                    fontFamily: 'Nunito',
                                     color: Color(0xff8B8B8B),
                                     fontSize: 10,
                                     fontWeight: FontWeight.w700)),
@@ -1060,6 +1097,7 @@ class Discover extends StatelessWidget {
                                 Text(
                                     '10 tips for Boosting \n your Productivity...',
                                     style: TextStyle(
+                                        fontFamily: 'Nunito',
                                         fontSize: 16,
                                         fontWeight: FontWeight.w700,
                                         color: Color(0xff414ECA)))
@@ -1074,12 +1112,14 @@ class Discover extends StatelessWidget {
                             ),
                             Text('James Hok',
                                 style: TextStyle(
+                                    fontFamily: 'Nunito',
                                     fontSize: 12,
                                     fontWeight: FontWeight.w700,
                                     color: Color(0xff414ECA))),
                             const SizedBox(width: 13),
                             Text('3 Days Ago',
                                 style: TextStyle(
+                                    fontFamily: 'Nunito',
                                     color: Color(0xff8B8B8B),
                                     fontSize: 10,
                                     fontWeight: FontWeight.w700)),
@@ -1096,7 +1136,7 @@ class Discover extends StatelessWidget {
                   Padding(
                       padding: const EdgeInsets.only(bottom: 40),
                       child: Column(children: [
-                        const SizedBox(height: 10),
+                        const SizedBox(height: 15),
                         Padding(
                           padding: const EdgeInsets.only(bottom: 20),
                           child: Row(
@@ -1104,6 +1144,7 @@ class Discover extends StatelessWidget {
                               Text(
                                 'New Articles',
                                 style: TextStyle(
+                                    fontFamily: 'Nunito',
                                     color: Color(0xff3A0070),
                                     fontSize: 20,
                                     fontWeight: FontWeight.w700),
@@ -1160,6 +1201,7 @@ class Discover extends StatelessWidget {
                                               "10 tips for Boosting your \n Productivity ...",
                                               style: TextStyle(
                                                   fontSize: 16,
+                                                  fontFamily: 'Nunito',
                                                   fontWeight: FontWeight.w700,
                                                   color: Color(0xff414ECA))),
                                         ),
@@ -1176,6 +1218,7 @@ class Discover extends StatelessWidget {
                                               ),
                                               Text('James Hok',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       fontSize: 12,
                                                       fontWeight:
                                                           FontWeight.w700,
@@ -1191,6 +1234,7 @@ class Discover extends StatelessWidget {
                                             children: [
                                               Text('3 Days Ago',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       color: Color(0xff8B8B8B),
                                                       fontSize: 10,
                                                       fontWeight:
@@ -1278,6 +1322,7 @@ class Discover extends StatelessWidget {
                                               ),
                                               Text('James Hok',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       fontSize: 12,
                                                       fontWeight:
                                                           FontWeight.w700,
@@ -1293,6 +1338,7 @@ class Discover extends StatelessWidget {
                                             children: [
                                               Text('3 Days Ago',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       color: Color(0xff8B8B8B),
                                                       fontSize: 10,
                                                       fontWeight:
@@ -1364,6 +1410,7 @@ class Discover extends StatelessWidget {
                                               "10 tips for Boosting your \n Productivity ...",
                                               style: TextStyle(
                                                   fontSize: 16,
+                                                  fontFamily: 'Nunito',
                                                   fontWeight: FontWeight.w700,
                                                   color: Color(0xff414ECA))),
                                         ),
@@ -1380,6 +1427,7 @@ class Discover extends StatelessWidget {
                                               ),
                                               Text('James Hok',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       fontSize: 12,
                                                       fontWeight:
                                                           FontWeight.w700,
@@ -1395,6 +1443,7 @@ class Discover extends StatelessWidget {
                                             children: [
                                               Text('3 Days Ago',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       color: Color(0xff8B8B8B),
                                                       fontSize: 10,
                                                       fontWeight:
@@ -1465,6 +1514,7 @@ class Discover extends StatelessWidget {
                                           child: Text(
                                               "10 tips for Boosting your \n Productivity ...",
                                               style: TextStyle(
+                                                  fontFamily: 'Nunito',
                                                   fontSize: 16,
                                                   fontWeight: FontWeight.w700,
                                                   color: Color(0xff414ECA))),
@@ -1482,6 +1532,7 @@ class Discover extends StatelessWidget {
                                               ),
                                               Text('James Hok',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       fontSize: 12,
                                                       fontWeight:
                                                           FontWeight.w700,
@@ -1497,6 +1548,7 @@ class Discover extends StatelessWidget {
                                             children: [
                                               Text('3 Days Ago',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       color: Color(0xff8B8B8B),
                                                       fontSize: 10,
                                                       fontWeight:
@@ -1567,6 +1619,7 @@ class Discover extends StatelessWidget {
                                           child: Text(
                                               "10 tips for Boosting your \n Productivity ...",
                                               style: TextStyle(
+                                                  fontFamily: 'Nunito',
                                                   fontSize: 16,
                                                   fontWeight: FontWeight.w700,
                                                   color: Color(0xff414ECA))),
@@ -1584,6 +1637,7 @@ class Discover extends StatelessWidget {
                                               ),
                                               Text('James Hok',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       fontSize: 12,
                                                       fontWeight:
                                                           FontWeight.w700,
@@ -1599,6 +1653,7 @@ class Discover extends StatelessWidget {
                                             children: [
                                               Text('3 Days Ago',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       color: Color(0xff8B8B8B),
                                                       fontSize: 10,
                                                       fontWeight:
@@ -1687,6 +1742,7 @@ class Discover extends StatelessWidget {
                                               Text('James Hok',
                                                   style: TextStyle(
                                                       fontSize: 12,
+                                                      fontFamily: 'Nunito',
                                                       fontWeight:
                                                           FontWeight.w700,
                                                       color:
@@ -1701,6 +1757,217 @@ class Discover extends StatelessWidget {
                                             children: [
                                               Text('3 Days Ago',
                                                   style: TextStyle(
+                                                      color: Color(0xff8B8B8B),
+                                                      fontSize: 10,
+                                                      fontFamily: 'Nunito',
+                                                      fontWeight:
+                                                          FontWeight.w700)),
+                                              const SizedBox(
+                                                width: 118,
+                                              ),
+                                              Icon(
+                                                Icons.bookmark,
+                                                color: Color(0xff414ECA),
+                                                size: 20,
+                                              ),
+                                              const SizedBox(
+                                                width: 20,
+                                              ),
+                                              Icon(
+                                                Icons.more_vert,
+                                                size: 20,
+                                                color: Color(0xff8B8B8B),
+                                              ),
+                                            ],
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(
+                          height: 20,
+                        ),
+                        Row(
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.rectangle,
+                                  borderRadius: BorderRadius.circular(10)),
+                              height: 125,
+                              width: 375,
+                              child: Row(
+                                children: [
+                                  Container(
+                                    width: 125,
+                                    height: 125,
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.rectangle,
+                                      borderRadius: BorderRadius.circular(10),
+                                    ),
+                                    child: ClipRRect(
+                                      borderRadius: BorderRadius.circular(10),
+                                      child: Image.asset(
+                                        'assets/images/one.png',
+                                        fit: BoxFit.cover,
+                                      ),
+                                    ),
+                                  ),
+                                  const SizedBox(width: 15),
+                                  Padding(
+                                    padding: const EdgeInsets.only(top: 20),
+                                    child: Column(
+                                      children: [
+                                        Padding(
+                                          padding:
+                                              const EdgeInsets.only(right: 51),
+                                          child: Text(
+                                              "10 tips for Boosting your \n Productivity ...",
+                                              style: TextStyle(
+                                                  fontFamily: 'Nunito',
+                                                  fontSize: 16,
+                                                  fontWeight: FontWeight.w700,
+                                                  color: Color(0xff414ECA))),
+                                        ),
+                                        Padding(
+                                          padding: const EdgeInsets.only(
+                                              right: 145, top: 10),
+                                          child: Row(
+                                            children: [
+                                              Image.asset(
+                                                  'assets/images/ell.png',
+                                                  width: 20),
+                                              const SizedBox(
+                                                width: 5,
+                                              ),
+                                              Text('James Hok',
+                                                  style: TextStyle(
+                                                      fontFamily: 'Nunito',
+                                                      fontSize: 12,
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      color:
+                                                          Color(0xff414ECA))),
+                                            ],
+                                          ),
+                                        ),
+                                        Padding(
+                                          padding:
+                                              const EdgeInsets.only(top: 10),
+                                          child: Row(
+                                            children: [
+                                              Text('3 Days Ago',
+                                                  style: TextStyle(
+                                                      fontFamily: 'Nunito',
+                                                      color: Color(0xff8B8B8B),
+                                                      fontSize: 10,
+                                                      fontWeight:
+                                                          FontWeight.w700)),
+                                              const SizedBox(
+                                                width: 118,
+                                              ),
+                                              Icon(
+                                                Icons.bookmark,
+                                                color: Color(0xff414ECA),
+                                                size: 20,
+                                              ),
+                                              const SizedBox(
+                                                width: 20,
+                                              ),
+                                              Icon(
+                                                Icons.more_vert,
+                                                size: 20,
+                                                color: Color(0xff8B8B8B),
+                                              ),
+                                            ],
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(
+                          height: 20,
+                        ),
+                        Row(
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.rectangle,
+                                  borderRadius: BorderRadius.circular(10)),
+                              height: 125,
+                              width: 375,
+                              child: Row(
+                                children: [
+                                  Container(
+                                    width: 125,
+                                    height: 125,
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.rectangle,
+                                      borderRadius: BorderRadius.circular(10),
+                                    ),
+                                    child: ClipRRect(
+                                      borderRadius: BorderRadius.circular(10),
+                                      child: Image.asset(
+                                        'assets/images/one.png',
+                                        fit: BoxFit.cover,
+                                      ),
+                                    ),
+                                  ),
+                                  const SizedBox(width: 15),
+                                  Padding(
+                                    padding: const EdgeInsets.only(top: 20),
+                                    child: Column(
+                                      children: [
+                                        Padding(
+                                          padding:
+                                              const EdgeInsets.only(right: 51),
+                                          child: Text(
+                                              "10 tips for Boosting your \n Productivity ...",
+                                              style: TextStyle(
+                                                  fontFamily: 'Nunito',
+                                                  fontSize: 16,
+                                                  fontWeight: FontWeight.w700,
+                                                  color: Color(0xff414ECA))),
+                                        ),
+                                        Padding(
+                                          padding: const EdgeInsets.only(
+                                              right: 145, top: 10),
+                                          child: Row(
+                                            children: [
+                                              Image.asset(
+                                                  'assets/images/ell.png',
+                                                  width: 20),
+                                              const SizedBox(
+                                                width: 5,
+                                              ),
+                                              Text('James Hok',
+                                                  style: TextStyle(
+                                                      fontFamily: 'Nunito',
+                                                      fontSize: 12,
+                                                      fontWeight:
+                                                          FontWeight.w700,
+                                                      color:
+                                                          Color(0xff414ECA))),
+                                            ],
+                                          ),
+                                        ),
+                                        Padding(
+                                          padding:
+                                              const EdgeInsets.only(top: 10),
+                                          child: Row(
+                                            children: [
+                                              Text('3 Days Ago',
+                                                  style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       color: Color(0xff8B8B8B),
                                                       fontSize: 10,
                                                       fontWeight:
@@ -1772,6 +2039,7 @@ class Discover extends StatelessWidget {
                                               "10 tips for Boosting your \n Productivity ...",
                                               style: TextStyle(
                                                   fontSize: 16,
+                                                  fontFamily: 'Nunito',
                                                   fontWeight: FontWeight.w700,
                                                   color: Color(0xff414ECA))),
                                         ),
@@ -1789,6 +2057,7 @@ class Discover extends StatelessWidget {
                                               Text('James Hok',
                                                   style: TextStyle(
                                                       fontSize: 12,
+                                                      fontFamily: 'Nunito',
                                                       fontWeight:
                                                           FontWeight.w700,
                                                       color:
@@ -1803,210 +2072,7 @@ class Discover extends StatelessWidget {
                                             children: [
                                               Text('3 Days Ago',
                                                   style: TextStyle(
-                                                      color: Color(0xff8B8B8B),
-                                                      fontSize: 10,
-                                                      fontWeight:
-                                                          FontWeight.w700)),
-                                              const SizedBox(
-                                                width: 118,
-                                              ),
-                                              Icon(
-                                                Icons.bookmark,
-                                                color: Color(0xff414ECA),
-                                                size: 20,
-                                              ),
-                                              const SizedBox(
-                                                width: 20,
-                                              ),
-                                              Icon(
-                                                Icons.more_vert,
-                                                size: 20,
-                                                color: Color(0xff8B8B8B),
-                                              ),
-                                            ],
-                                          ),
-                                        )
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
-                          height: 20,
-                        ),
-                        Row(
-                          children: [
-                            Container(
-                              decoration: BoxDecoration(
-                                  shape: BoxShape.rectangle,
-                                  borderRadius: BorderRadius.circular(10)),
-                              height: 125,
-                              width: 375,
-                              child: Row(
-                                children: [
-                                  Container(
-                                    width: 125,
-                                    height: 125,
-                                    decoration: BoxDecoration(
-                                      shape: BoxShape.rectangle,
-                                      borderRadius: BorderRadius.circular(10),
-                                    ),
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(10),
-                                      child: Image.asset(
-                                        'assets/images/one.png',
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 15),
-                                  Padding(
-                                    padding: const EdgeInsets.only(top: 20),
-                                    child: Column(
-                                      children: [
-                                        Padding(
-                                          padding:
-                                              const EdgeInsets.only(right: 51),
-                                          child: Text(
-                                              "10 tips for Boosting your \n Productivity ...",
-                                              style: TextStyle(
-                                                  fontSize: 16,
-                                                  fontWeight: FontWeight.w700,
-                                                  color: Color(0xff414ECA))),
-                                        ),
-                                        Padding(
-                                          padding: const EdgeInsets.only(
-                                              right: 145, top: 10),
-                                          child: Row(
-                                            children: [
-                                              Image.asset(
-                                                  'assets/images/ell.png',
-                                                  width: 20),
-                                              const SizedBox(
-                                                width: 5,
-                                              ),
-                                              Text('James Hok',
-                                                  style: TextStyle(
-                                                      fontSize: 12,
-                                                      fontWeight:
-                                                          FontWeight.w700,
-                                                      color:
-                                                          Color(0xff414ECA))),
-                                            ],
-                                          ),
-                                        ),
-                                        Padding(
-                                          padding:
-                                              const EdgeInsets.only(top: 10),
-                                          child: Row(
-                                            children: [
-                                              Text('3 Days Ago',
-                                                  style: TextStyle(
-                                                      color: Color(0xff8B8B8B),
-                                                      fontSize: 10,
-                                                      fontWeight:
-                                                          FontWeight.w700)),
-                                              const SizedBox(
-                                                width: 118,
-                                              ),
-                                              Icon(
-                                                Icons.bookmark,
-                                                color: Color(0xff414ECA),
-                                                size: 20,
-                                              ),
-                                              const SizedBox(
-                                                width: 20,
-                                              ),
-                                              Icon(
-                                                Icons.more_vert,
-                                                size: 20,
-                                                color: Color(0xff8B8B8B),
-                                              ),
-                                            ],
-                                          ),
-                                        )
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
-                          height: 20,
-                        ),
-                        Row(
-                          children: [
-                            Container(
-                              decoration: BoxDecoration(
-                                  shape: BoxShape.rectangle,
-                                  borderRadius: BorderRadius.circular(10)),
-                              height: 125,
-                              width: 375,
-                              child: Row(
-                                children: [
-                                  Container(
-                                    width: 125,
-                                    height: 125,
-                                    decoration: BoxDecoration(
-                                      shape: BoxShape.rectangle,
-                                      borderRadius: BorderRadius.circular(10),
-                                    ),
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(10),
-                                      child: Image.asset(
-                                        'assets/images/one.png',
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 15),
-                                  Padding(
-                                    padding: const EdgeInsets.only(top: 20),
-                                    child: Column(
-                                      children: [
-                                        Padding(
-                                          padding:
-                                              const EdgeInsets.only(right: 51),
-                                          child: Text(
-                                              "10 tips for Boosting your \n Productivity ...",
-                                              style: TextStyle(
-                                                  fontSize: 16,
-                                                  fontWeight: FontWeight.w700,
-                                                  color: Color(0xff414ECA))),
-                                        ),
-                                        Padding(
-                                          padding: const EdgeInsets.only(
-                                              right: 145, top: 10),
-                                          child: Row(
-                                            children: [
-                                              Image.asset(
-                                                  'assets/images/ell.png',
-                                                  width: 20),
-                                              const SizedBox(
-                                                width: 5,
-                                              ),
-                                              Text('James Hok',
-                                                  style: TextStyle(
-                                                      fontSize: 12,
-                                                      fontWeight:
-                                                          FontWeight.w700,
-                                                      color:
-                                                          Color(0xff414ECA))),
-                                            ],
-                                          ),
-                                        ),
-                                        Padding(
-                                          padding:
-                                              const EdgeInsets.only(top: 10),
-                                          child: Row(
-                                            children: [
-                                              Text('3 Days Ago',
-                                                  style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       color: Color(0xff8B8B8B),
                                                       fontSize: 10,
                                                       fontWeight:
@@ -2077,6 +2143,7 @@ class Discover extends StatelessWidget {
                                           child: Text(
                                               "10 tips for Boosting your \n Productivity ...",
                                               style: TextStyle(
+                                                  fontFamily: 'Nunito',
                                                   fontSize: 16,
                                                   fontWeight: FontWeight.w700,
                                                   color: Color(0xff414ECA))),
@@ -2095,6 +2162,7 @@ class Discover extends StatelessWidget {
                                               Text('James Hok',
                                                   style: TextStyle(
                                                       fontSize: 12,
+                                                      fontFamily: 'Nunito',
                                                       fontWeight:
                                                           FontWeight.w700,
                                                       color:
@@ -2111,6 +2179,7 @@ class Discover extends StatelessWidget {
                                                   style: TextStyle(
                                                       color: Color(0xff8B8B8B),
                                                       fontSize: 10,
+                                                      fontFamily: 'Nunito',
                                                       fontWeight:
                                                           FontWeight.w700)),
                                               const SizedBox(
@@ -2180,6 +2249,7 @@ class Discover extends StatelessWidget {
                                               "10 tips for Boosting your \n Productivity ...",
                                               style: TextStyle(
                                                   fontSize: 16,
+                                                  fontFamily: 'Nunito',
                                                   fontWeight: FontWeight.w700,
                                                   color: Color(0xff414ECA))),
                                         ),
@@ -2197,6 +2267,7 @@ class Discover extends StatelessWidget {
                                               Text('James Hok',
                                                   style: TextStyle(
                                                       fontSize: 12,
+                                                      fontFamily: 'Nunito',
                                                       fontWeight:
                                                           FontWeight.w700,
                                                       color:
@@ -2211,6 +2282,7 @@ class Discover extends StatelessWidget {
                                             children: [
                                               Text('3 Days Ago',
                                                   style: TextStyle(
+                                                      fontFamily: 'Nunito',
                                                       color: Color(0xff8B8B8B),
                                                       fontSize: 10,
                                                       fontWeight:
@@ -2281,6 +2353,7 @@ class Discover extends StatelessWidget {
                                           child: Text(
                                               "10 tips for Boosting your \n Productivity ...",
                                               style: TextStyle(
+                                                  fontFamily: 'Nunito',
                                                   fontSize: 16,
                                                   fontWeight: FontWeight.w700,
                                                   color: Color(0xff414ECA))),
@@ -2299,6 +2372,7 @@ class Discover extends StatelessWidget {
                                               Text('James Hok',
                                                   style: TextStyle(
                                                       fontSize: 12,
+                                                      fontFamily: 'Nunito',
                                                       fontWeight:
                                                           FontWeight.w700,
                                                       color:
@@ -2315,6 +2389,7 @@ class Discover extends StatelessWidget {
                                                   style: TextStyle(
                                                       color: Color(0xff8B8B8B),
                                                       fontSize: 10,
+                                                      fontFamily: 'Nunito',
                                                       fontWeight:
                                                           FontWeight.w700)),
                                               const SizedBox(

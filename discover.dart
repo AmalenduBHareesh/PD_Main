@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:pd_main/articledet.dart';
 import 'package:pd_main/explore.dart';
 import 'package:pd_main/feeds.dart';
+import 'package:pd_main/myartdr.dart';
 import 'package:pd_main/newarc.dart';
 import 'package:pd_main/popular.dart';
 import 'package:pd_main/recomm.dart';
@@ -52,7 +54,10 @@ class Discover extends StatelessWidget {
               color: Color(0xff414ECA),
             ),
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const MyArt()));
+              },
               icon: Icon(Icons.style_outlined),
               color: Color(0xff414ECA),
             ),
@@ -130,91 +135,99 @@ class Discover extends StatelessWidget {
                   const SizedBox(height: 15),
                   Row(
                     children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            shape: BoxShape.rectangle,
-                            borderRadius: BorderRadius.circular(10)),
-                        height: 260,
-                        width: 175,
-                        child: Column(children: [
-                          Container(
-                            width: 175,
-                            height: 175,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10),
-                            ),
-                            child: Stack(
-                              children: [
-                                ClipRRect(
-                                  borderRadius: BorderRadius.circular(10),
-                                  child: SizedBox(
-                                    width: 175,
-                                    height: 175,
-                                    child: Image.asset(
-                                      'assets/images/one.png',
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                ),
-                                Positioned(
-                                  top: 8,
-                                  right: 8,
-                                  child: Container(
-                                    width: 40,
-                                    height: 40,
-                                    decoration: BoxDecoration(
-                                      color: Color(0xff414ECA),
-                                      shape: BoxShape.circle,
-                                    ),
-                                    child: Center(
-                                      child: Icon(
-                                        Icons.bookmark_outline,
-                                        color: Colors.white,
-                                        size: 30,
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const ArticDet()));
+                        },
+                        child: Container(
+                          decoration: BoxDecoration(
+                              shape: BoxShape.rectangle,
+                              borderRadius: BorderRadius.circular(10)),
+                          height: 260,
+                          width: 175,
+                          child: Column(children: [
+                            Container(
+                              width: 175,
+                              height: 175,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              child: Stack(
+                                children: [
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(10),
+                                    child: SizedBox(
+                                      width: 175,
+                                      height: 175,
+                                      child: Image.asset(
+                                        'assets/images/one.png',
+                                        fit: BoxFit.cover,
                                       ),
                                     ),
                                   ),
-                                ),
-                              ],
+                                  Positioned(
+                                    top: 8,
+                                    right: 8,
+                                    child: Container(
+                                      width: 40,
+                                      height: 40,
+                                      decoration: BoxDecoration(
+                                        color: Color(0xff414ECA),
+                                        shape: BoxShape.circle,
+                                      ),
+                                      child: Center(
+                                        child: Icon(
+                                          Icons.bookmark_outline,
+                                          color: Colors.white,
+                                          size: 30,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.only(top: 10),
-                            child: Row(
-                              children: [
-                                Text(
-                                    '10 tips for Boosting \n your Productivity...',
-                                    style: TextStyle(
-                                        fontSize: 16,
-                                        fontWeight: FontWeight.w700,
-                                        color: Color(0xff414ECA)))
-                              ],
+                            Padding(
+                              padding: const EdgeInsets.only(top: 10),
+                              child: Row(
+                                children: [
+                                  Text(
+                                      '10 tips for Boosting \n your Productivity...',
+                                      style: TextStyle(
+                                          fontSize: 16,
+                                          fontWeight: FontWeight.w700,
+                                          color: Color(0xff414ECA)))
+                                ],
+                              ),
                             ),
-                          ),
-                          const SizedBox(height: 10),
-                          Row(children: [
-                            Image.asset('assets/images/ell.png', width: 20),
-                            const SizedBox(
-                              width: 5,
-                            ),
-                            Text('James Hok',
-                                style: TextStyle(
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.w700,
-                                    color: Color(0xff414ECA))),
-                            const SizedBox(width: 13),
-                            Text('3 Days Ago',
-                                style: TextStyle(
-                                    color: Color(0xff8B8B8B),
-                                    fontSize: 10,
-                                    fontWeight: FontWeight.w700)),
-                            Icon(
-                              Icons.more_vert,
-                              size: 15,
-                              color: Color(0xff8B8B8B),
-                            )
+                            const SizedBox(height: 10),
+                            Row(children: [
+                              Image.asset('assets/images/ell.png', width: 20),
+                              const SizedBox(
+                                width: 5,
+                              ),
+                              Text('James Hok',
+                                  style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w700,
+                                      color: Color(0xff414ECA))),
+                              const SizedBox(width: 13),
+                              Text('3 Days Ago',
+                                  style: TextStyle(
+                                      color: Color(0xff8B8B8B),
+                                      fontSize: 10,
+                                      fontWeight: FontWeight.w700)),
+                              Icon(
+                                Icons.more_vert,
+                                size: 15,
+                                color: Color(0xff8B8B8B),
+                              )
+                            ]),
                           ]),
-                        ]),
+                        ),
                       ),
                       const SizedBox(
                         width: 20,
@@ -656,7 +669,15 @@ class Discover extends StatelessWidget {
                             child: Row(children: [
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp1.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp1.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
@@ -668,7 +689,15 @@ class Discover extends StatelessWidget {
                               const SizedBox(width: 15),
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp2.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp2.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
@@ -680,7 +709,15 @@ class Discover extends StatelessWidget {
                               const SizedBox(width: 15),
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp3.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp3.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
@@ -692,7 +729,15 @@ class Discover extends StatelessWidget {
                               const SizedBox(width: 15),
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp1.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp1.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
@@ -704,7 +749,15 @@ class Discover extends StatelessWidget {
                               const SizedBox(width: 15),
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp2.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp2.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
@@ -716,7 +769,15 @@ class Discover extends StatelessWidget {
                               const SizedBox(width: 15),
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp3.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp3.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
@@ -728,7 +789,15 @@ class Discover extends StatelessWidget {
                               const SizedBox(width: 15),
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp1.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp1.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
@@ -740,7 +809,15 @@ class Discover extends StatelessWidget {
                               const SizedBox(width: 15),
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp2.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp1.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
@@ -752,7 +829,15 @@ class Discover extends StatelessWidget {
                               const SizedBox(width: 15),
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp3.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp3.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
@@ -764,7 +849,15 @@ class Discover extends StatelessWidget {
                               const SizedBox(width: 15),
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp1.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp1.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(
@@ -776,7 +869,15 @@ class Discover extends StatelessWidget {
                               const SizedBox(width: 15),
                               Column(
                                 children: [
-                                  Image.asset('assets/images/dp2.png'),
+                                  ClipOval(
+                                    child: Container(
+                                        width: 60,
+                                        height: 60,
+                                        child: Image.asset(
+                                          'assets/images/dp1.png',
+                                          fit: BoxFit.fitHeight,
+                                        )),
+                                  ),
                                   const SizedBox(height: 10),
                                   Text("Ronald",
                                       style: TextStyle(

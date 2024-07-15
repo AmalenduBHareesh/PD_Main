@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pd_main/feeds.dart';
+import 'package:pd_main/success.dart';
 
 class Create extends StatelessWidget {
   const Create({super.key});
@@ -42,6 +43,7 @@ class Create extends StatelessWidget {
             padding: const EdgeInsets.only(
               left: 20,
               top: 20,
+              bottom: 20,
             ),
             child: Column(
               children: [
@@ -344,78 +346,180 @@ class Create extends StatelessWidget {
                     ),
                   ],
                 ),
+                const SizedBox(
+                  height: 30,
+                ),
+                GestureDetector(
+                  onTap: () {
+                    showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return AlertDialog(
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20)),
+                            actions: [
+                              Column(
+                                children: [
+                                  Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        Padding(
+                                          padding:
+                                              const EdgeInsets.only(top: 20),
+                                          child: Text("Confirm Save",
+                                              style: TextStyle(
+                                                  fontSize: 17,
+                                                  fontWeight: FontWeight.w700,
+                                                  color: Colors.red)),
+                                        )
+                                      ]),
+                                  const SizedBox(
+                                    height: 20,
+                                  ),
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    children: [
+                                      Container(
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.rectangle,
+                                          color: Color.fromARGB(
+                                              255, 187, 187, 187),
+                                        ),
+                                        height: 1,
+                                        width: 300,
+                                      ),
+                                    ],
+                                  ),
+                                  const SizedBox(
+                                    height: 20,
+                                  ),
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                          "Are You Sure Want to Delete \n        this Article as Draft",
+                                          style: TextStyle(
+                                            fontSize: 16,
+                                            fontWeight: FontWeight.w700,
+                                            color: Color(0xff260446),
+                                          ))
+                                    ],
+                                  ),
+                                  const SizedBox(
+                                    height: 20,
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(
+                                      bottom: 20,
+                                    ),
+                                    child: Row(
+                                      children: [
+                                        Container(
+                                            decoration: BoxDecoration(
+                                                shape: BoxShape.rectangle,
+                                                color: Color(0xffC5CAFA),
+                                                borderRadius:
+                                                    BorderRadius.circular(30)),
+                                            height: 50,
+                                            width: 138,
+                                            child: Row(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              children: [
+                                                Text("Discard",
+                                                    style: TextStyle(
+                                                        fontSize: 17,
+                                                        fontWeight:
+                                                            FontWeight.w600,
+                                                        color:
+                                                            Color(0xff414ECA))),
+                                              ],
+                                            )),
+                                        const SizedBox(width: 20),
+                                        Container(
+                                            decoration: BoxDecoration(
+                                                shape: BoxShape.rectangle,
+                                                color: Color(0xff414ECA),
+                                                borderRadius:
+                                                    BorderRadius.circular(30)),
+                                            height: 50,
+                                            width: 154,
+                                            child: Row(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              children: [
+                                                Text("Yes,Save",
+                                                    style: TextStyle(
+                                                        fontSize: 17,
+                                                        fontWeight:
+                                                            FontWeight.w600,
+                                                        color: Colors.white)),
+                                              ],
+                                            )),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          );
+                        });
+                  },
+                  child: Container(
+                      decoration: BoxDecoration(
+                          shape: BoxShape.rectangle,
+                          color: Color(0xffC0C5F7),
+                          borderRadius: BorderRadius.circular(30)),
+                      height: 57,
+                      width: 350,
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text("Save as Draft",
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600,
+                                color: Color(0xff414ECA),
+                              )),
+                        ],
+                      )),
+                ),
+                const SizedBox(height: 15),
+                InkWell(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const Success()));
+                  },
+                  child: Container(
+                      decoration: BoxDecoration(
+                          shape: BoxShape.rectangle,
+                          color: Color(0xff414ECA),
+                          borderRadius: BorderRadius.circular(30)),
+                      height: 57,
+                      width: 350,
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text("Continue to Publish",
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.white)),
+                        ],
+                      )),
+                ),
               ],
             ),
           )),
-      bottomNavigationBar: BottomAppBar(
-        color: Colors.white,
-        elevation: 0,
-        height: 190,
-        child: Padding(
-          padding: const EdgeInsets.all(30),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Feeds()));
-                },
-                child: Column(
-                  children: [
-                    Container(
-                        decoration: BoxDecoration(
-                            shape: BoxShape.rectangle,
-                            color: Color(0xffC0C5F7),
-                            borderRadius: BorderRadius.circular(30)),
-                        height: 57,
-                        width: 300,
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text("Save as Draft",
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w600,
-                                  color: Color(0xff414ECA),
-                                )),
-                          ],
-                        )),
-                    const SizedBox(height: 15),
-                    InkWell(
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const Feeds()));
-                      },
-                      child: Container(
-                          decoration: BoxDecoration(
-                              shape: BoxShape.rectangle,
-                              color: Color(0xff414ECA),
-                              borderRadius: BorderRadius.circular(30)),
-                          height: 57,
-                          width: 300,
-                          child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Text("Publish Now",
-                                  style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w600,
-                                      color: Colors.white)),
-                            ],
-                          )),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
     );
   }
 }

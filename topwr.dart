@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pd_main/discover.dart';
+import 'package:pd_main/topwropen1.dart';
 
 class TopWriter extends StatelessWidget {
   const TopWriter({super.key});
@@ -44,71 +45,83 @@ class TopWriter extends StatelessWidget {
                 child: Column(children: [
                   Row(
                     children: [
-                      Container(
-                        decoration: BoxDecoration(
-                          shape: BoxShape.rectangle,
-                        ),
-                        height: 60,
-                        width: 370,
-                        child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            children: [
-                              Text("01",
-                                  style: TextStyle(
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.w700,
-                                  )),
-                              const SizedBox(width: 15),
-                              Image.asset(
-                                'assets/images/ello.png',
-                              ),
-                              Padding(
-                                padding: const EdgeInsets.only(top: 10),
-                                child: Column(
-                                  children: [
-                                    Padding(
-                                      padding: const EdgeInsets.only(right: 65),
-                                      child: Text('James Hok',
-                                          style: TextStyle(
-                                              fontSize: 16,
-                                              fontWeight: FontWeight.w700,
-                                              color: Color(0xff414ECA))),
-                                    ),
-                                    const SizedBox(height: 5),
-                                    Padding(
-                                      padding: const EdgeInsets.only(left: 10),
-                                      child: Text(
-                                        'UIUX Designer at Google',
-                                        style: TextStyle(
-                                            fontSize: 14,
-                                            fontWeight: FontWeight.w600,
-                                            color: Color(0xff8B8B8B)),
-                                      ),
-                                    )
-                                  ],
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const TopOpen1()));
+                        },
+                        child: Container(
+                          decoration: BoxDecoration(
+                            shape: BoxShape.rectangle,
+                          ),
+                          height: 60,
+                          width: 370,
+                          child: Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text("01",
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w700,
+                                    )),
+                                const SizedBox(width: 15),
+                                Image.asset(
+                                  'assets/images/ello.png',
                                 ),
-                              ),
-                              const SizedBox(width: 40),
-                              Container(
-                                  decoration: BoxDecoration(
-                                      shape: BoxShape.rectangle,
-                                      color: Color(0xff414ECA),
-                                      borderRadius: BorderRadius.circular(30)),
-                                  height: 28,
-                                  width: 70,
-                                  child: Row(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    mainAxisAlignment: MainAxisAlignment.center,
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 10),
+                                  child: Column(
                                     children: [
-                                      Text("Follow",
+                                      Padding(
+                                        padding:
+                                            const EdgeInsets.only(right: 65),
+                                        child: Text('James Hok',
+                                            style: TextStyle(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.w700,
+                                                color: Color(0xff414ECA))),
+                                      ),
+                                      const SizedBox(height: 5),
+                                      Padding(
+                                        padding:
+                                            const EdgeInsets.only(left: 10),
+                                        child: Text(
+                                          'UIUX Designer at Google',
                                           style: TextStyle(
-                                              fontSize: 13,
+                                              fontSize: 14,
                                               fontWeight: FontWeight.w600,
-                                              color: Colors.white)),
+                                              color: Color(0xff8B8B8B)),
+                                        ),
+                                      )
                                     ],
-                                  )),
-                            ]),
+                                  ),
+                                ),
+                                const SizedBox(width: 40),
+                                Container(
+                                    decoration: BoxDecoration(
+                                        shape: BoxShape.rectangle,
+                                        color: Color(0xff414ECA),
+                                        borderRadius:
+                                            BorderRadius.circular(30)),
+                                    height: 28,
+                                    width: 70,
+                                    child: Row(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        Text("Follow",
+                                            style: TextStyle(
+                                                fontSize: 13,
+                                                fontWeight: FontWeight.w600,
+                                                color: Colors.white)),
+                                      ],
+                                    )),
+                              ]),
+                        ),
                       )
                     ],
                   ),
